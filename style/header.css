@@ -1,0 +1,12 @@
+header {
+
+    & nav>img {
+        max-width: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    & a:first-child {
+        margin-right: auto;
+    }
+}

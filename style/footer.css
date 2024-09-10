@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    justify-content: center;
+
+    & div>span {
+        justify-items: flex-end;
+        padding-inline: 1rem;
+    }
+}
+
+@media (width >=80em) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}

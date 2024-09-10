@@ -1,0 +1,23 @@
+#travel {
+    padding-block: var(--py-lg);
+    gap: 1rem;
+    width: 100%;
+
+    & img {
+        width: 328px;
+        object-fit: cover;
+    }
+}
+
+@media (width >= 80em) {
+
+    #travel {
+        gap: 24px;
+
+        & img {
+            width: 286px;
+            height: 286px;
+            object-fit: cover;
+        }
+    }
+}

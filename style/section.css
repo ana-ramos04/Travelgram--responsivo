@@ -1,0 +1,36 @@
+section {
+    & div>img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    & p {
+        max-width: 296px;
+        padding-top: .5rem;
+    }
+}
+
+@media (width >=80em) {
+    section {
+
+        & div>img {
+            width: 178px;
+            height: 178px;
+        }
+
+        & div>div {
+            padding: var(--py-xl);
+        }
+
+        & .list {
+            width: 280px;
+            align-items: center;
+        }
+
+        & p {
+            max-width: 384px;
+        }
+    }
+}
